@@ -6,9 +6,13 @@ validation, authentication etc features such as signup, login etc.
 
 Just to test how to start with Flask you can follow these steps  
 
+### Install virtualenv
+```
+$pip install virtualenv
+```
 ### Create virtual environment
 ```
-$virtualenv flaskVirEnv
+$virtualenv -p python3 flaskVirEnv
 $cd flaskVirEnv
 $source bin/activate
 ```
